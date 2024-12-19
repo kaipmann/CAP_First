@@ -1,0 +1,147 @@
+@server = http://localhost:4004
+@auth = Authorization: Basic alice:
+
+
+### Books
+# @name Books_GET
+GET {{server}}/odata/v4/catalog/Books
+{{auth}}
+
+
+### Books
+# @name Books_POST
+POST {{server}}/odata/v4/catalog/Books
+Content-Type: application/json
+{{auth}}
+
+{
+  "ID": 3757900,
+  "title": "CAPIRE",
+  "author": {
+    "ID": 28160022
+  },
+  "stock": 258
+}
+
+
+### Books
+# @name Books_PATCH
+PATCH {{server}}/odata/v4/catalog/Books/3757948
+Content-Type: application/json
+{{auth}}
+
+{
+  "ID": 3757948,
+  "title": "title-3757948",
+  "author": {
+    "ID": 28160022
+  },
+  "stock": 58
+}
+
+
+### Books
+# @name Books_DELETE
+DELETE {{server}}/odata/v4/catalog/Books/3757948
+Content-Type: application/json
+{{auth}}
+
+
+### Authors
+# @name Authors_GET
+GET {{server}}/odata/v4/catalog/Authors
+{{auth}}
+
+
+### Authors
+# @name Authors_POST
+POST {{server}}/odata/v4/catalog/Authors
+Content-Type: application/json
+{{auth}}
+
+{
+  "ID": 28160022,
+  "name": "name-28160022"
+}
+
+
+### Authors
+# @name Authors_PATCH
+PATCH {{server}}/odata/v4/catalog/Authors/28160022
+Content-Type: application/json
+{{auth}}
+
+{
+  "ID": 28160022,
+  "name": "name-28160022"
+}
+
+
+### Authors
+# @name Authors_DELETE
+DELETE {{server}}/odata/v4/catalog/Authors/28160022
+Content-Type: application/json
+{{auth}}
+
+
+### Orders
+# @name Orders_GET
+GET {{server}}/odata/v4/catalog/Orders
+{{auth}}
+
+
+### Orders
+# @name Orders_POST
+POST {{server}}/odata/v4/catalog/Orders
+Content-Type: application/json
+{{auth}}
+
+{
+  "ID": "28378730-adb2-4590-a215-14a39dc395bc",
+  "book": {
+    "ID": 3757900
+  },
+  "country": {
+    "code": "115"
+  },
+  "amount": 207,
+  "createdAt": "2016-12-06T05:00:00.000Z",
+  "createdBy": "createdBy.gw98u@example.com",
+  "modifiedAt": "2014-10-03T05:00:00.000Z",
+  "modifiedBy": "modifiedBy.gw98u@example.com"
+}
+
+
+### Orders
+# @name Orders_PATCH
+PATCH {{server}}/odata/v4/catalog/Orders/28378830-adb2-4590-a215-14a39dc395bc
+Content-Type: application/json
+{{auth}}
+
+{
+  "ID": "28378830-adb2-4590-a215-14a39dc395bc",
+  "book": {
+    "ID": 3757948
+  },
+  "country": {
+    "code": "115"
+  },
+  "amount": 57,
+  "createdAt": "2016-12-06T05:00:00.000Z",
+  "createdBy": "createdBy.gw98u@example.com",
+  "modifiedAt": "2014-10-03T05:00:00.000Z",
+  "modifiedBy": "modifiedBy.gw98u@example.com"
+}
+
+
+### Orders
+# @name Orders_DELETE
+DELETE {{server}}/odata/v4/catalog/Orders/28378830-adb2-4590-a215-14a39dc395bc
+Content-Type: application/json
+{{auth}}
+
+
+### Countries
+# @name Countries_GET
+GET {{server}}/odata/v4/catalog/Countries
+{{auth}}

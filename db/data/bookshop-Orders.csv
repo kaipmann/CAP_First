@@ -1,0 +1,11 @@
+ID,book_ID,country_code,amount,createdAt,createdBy,modifiedAt,modifiedBy
+14595179-2a8e-4ebc-a75f-633ec5ce8fd2,2637385,665,77,2008-01-19T05:00:00.000Z,createdBy.8otpn@example.net,2005-12-30T05:00:00.000Z,modifiedBy.8otpn@example.net
+14595180-8404-40d4-95b1-15af099a0c1f,2637385,665,32,2014-07-20T05:00:00.000Z,createdBy.8otpo@example.org,2020-06-20T05:00:00.000Z,modifiedBy.8otpo@example.com
+14595181-3f53-4693-a986-e793b940aaf4,2637385,665,20,2005-05-13T05:00:00.000Z,createdBy.8otpp@example.net,2013-03-13T05:00:00.000Z,modifiedBy.8otpp@example.org
+14595182-4797-4ccc-af42-79f79c5a3b94,2637385,665,59,2021-05-15T05:00:00.000Z,createdBy.8otpq@example.org,2013-04-13T05:00:00.000Z,modifiedBy.8otpq@example.net
+14595183-6864-4e55-a8cf-b0bb7c151016,2637385,665,13,2014-08-25T05:00:00.000Z,createdBy.8otpr@example.net,2009-01-29T05:00:00.000Z,modifiedBy.8otpr@example.com
+14595184-2315-41f3-b1bd-37090671c593,2637385,665,92,2010-01-16T05:00:00.000Z,createdBy.8otps@example.net,2001-07-16T05:00:00.000Z,modifiedBy.8otps@example.net
+14595185-f50d-4cd9-972c-bb5df5965950,2637385,665,74,2023-11-04T05:00:00.000Z,createdBy.8otpt@example.com,2020-03-08T05:00:00.000Z,modifiedBy.8otpt@example.com
+14595186-0168-4273-9faf-c851f5bac39d,2637385,665,71,2019-12-13T05:00:00.000Z,createdBy.8otpu@example.org,2008-02-14T05:00:00.000Z,modifiedBy.8otpu@example.org
+14595187-eb93-4a2e-8468-c3f18ae554aa,2637385,665,5,2018-06-04T05:00:00.000Z,createdBy.8otpv@example.org,2012-05-26T05:00:00.000Z,modifiedBy.8otpv@example.com
+14595188-aaef-4ba4-81f4-cb6b9eb114a4,2637385,665,90,2006-10-27T05:00:00.000Z,createdBy.8otpw@example.net,2023-09-08T05:00:00.000Z,modifiedBy.8otpw@example.org
